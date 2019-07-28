@@ -1,45 +1,23 @@
-console.log('hello world');
+$( document ).ready(function() {
+ 
+    // Your code here.
+    $(window).scroll(function() {
+	    var scroll = $(window).scrollTop();
+      
+	    if (scroll >= 574 && scroll <= 16700) {
+			$("#upButton").removeClass("scaleDownAnimation").addClass("scaleUpAnimation");
+	    } if (scroll <= 573 || scroll >= 16701) {
+	    	$("#upButton").addClass("scaleDownAnimation");
+	    } else {
+		console.log(scroll);
+	    }
+	});
 
-// -------------------  SETUP -------------------  //
-var canvas = document.querySelector('canvas');
-console.log(canvas);
-
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-
-// -------------------  VARIABLES -------------------  //
-
-// global variables go here
-
-// -------------------  HELPER FUNCTIONS -------------------  //
-
-// get random int
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-// -------------------  FUNCTIONS -------------------  //
+	$( "#upButton" ).click(function() {
+		null;
+	});
 
 
-// skeleton function
-function exampleFunction(){
+ 
+});
 
-}
-
-
-
-// -------------------  DRAW LOOP -------------------  //
-
-function draw(){
-	// loop
-	requestAnimationFrame(draw);
-
-	// calls
-
-
-	// debug
-	console.log(r);
-}
-
-draw();
