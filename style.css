@@ -623,6 +623,19 @@ Text/Quote - 800 (488px padding)
 	margin: 0 auto;
 }
 
+.seeFull{
+    background-color: green;
+    position: absolute;
+
+    left: 0; 
+    right: 0;
+    top: 170px; 
+    margin: auto;
+    width: 400px;
+    text-align: center;
+
+}
+
 .photoCaption{
 	font-size: 16px;
 	line-height: 22px;
