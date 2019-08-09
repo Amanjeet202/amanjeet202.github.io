@@ -112,6 +112,18 @@ a{
   clear: both;
 }
 
+.space-24px{
+	display: block;
+	margin: 0 auto;
+	height: 28px;
+}
+
+.space-24px:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .space-28px{
 	display: block;
 	margin: 0 auto;
@@ -610,6 +622,10 @@ Text/Quote - 800 (488px padding)
 	background-color: #FDFF00;
 }
 
+#high{
+	background-color: #E2EFFF;
+}
+
 
 .main-imageBlock{
 	display: block;
@@ -936,7 +952,155 @@ Text/Quote - 800 (488px padding)
 	}
 }
 
-/* ----------------------- scroll down ----------------------- */
+/* ----------------------- new thumbnails ----------------------- */
 
+.main-deckBlock{
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.deck{
+	margin: 0 auto;
+	display: inline-block;
+	position: relative;
+    background-color: #F4B914;
+    height: 300px;
+    width: 488px;
+
+    border-radius: 8px;
+	box-shadow: 0px 2px 16px 0px rgba(143, 146, 155, 0.3);
+}
+
+.deckTop{
+	background-color: none;
+    position: absolute;
+
+    text-align: left;
+
+    top: 12px;
+    left: 22px;
+
+    color: white;
+
+}
+
+#deckTopCaption{
+    font-family: 'Acumin Pro';
+
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 34px;
+
+	text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+#deckTopTitle{
+	font-family: 'AvantGarde LT Book';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 52px;
+
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.deckBottomButton{
+	background-color: #F4B403;
+    position: absolute;
+
+   	font-family: 'AvantGarde LT Book';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    padding:14px 22px;
+
+    border-radius: 28px;
+
+    bottom: 26px;
+    left: 22px;
+
+    color: white;
+}
+
+.deckOverlay{
+    position: absolute;
+    top: 100px;
+    margin: auto;
+    width: 488px;
+    text-align: center;
+    color: white;
+    opacity: 0;
+
+}
+
+.divOverlayTitle{
+	font-family: 'AvantGarde LT Book';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 52px;
+
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.deckOverlayButton{
+	background-color: white;
+	color: #F4B914;
+
+   	font-family: 'AvantGarde LT Book';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    width: 342px;
+    margin: auto;
+    margin-top: 16px;
+
+    padding: 26px 0px;
+
+    border-radius: 40px;
+
+}
+
+.deck:hover{
+	box-shadow: 0px 8px 16px 0px rgba(143, 146, 155, 0.4);
+	transition: .4s;
+}
+
+.deck:hover .deckTop{
+	opacity: 0;
+	transition: 0s;
+}
+
+.deck:hover .deckBottomButton{
+	opacity: 0;
+}
+
+.deck:hover img{
+	opacity: 0;
+	transition: 0s;
+}
+
+.deck:hover .deckOverlay{
+	top: 80px;
+	opacity: 1;
+	transition: .6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.deckSpacer{
+	display: inline-block;
+	width: 16px;
+	height: 20px;
+	background-color: none;
+}
 
 
