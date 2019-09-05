@@ -160,6 +160,18 @@ a{
   clear: both;
 }
 
+.space-42px{
+	display: block;
+	margin: 0 auto;
+	height: 42px;
+}
+
+.space-42px:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .space-44px{
 	display: block;
 	margin: 0 auto;
@@ -221,6 +233,18 @@ a{
 }
 
 .space-68px:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.space-78px{
+	display: block;
+	margin: 0 auto;
+	height: 78px;
+}
+
+.space-78px:after {
   content: "";
   display: table;
   clear: both;
@@ -316,7 +340,7 @@ Text/Quote - 800 (488px padding)
 
 .pageCaseStudy{
 	display: block;
-	width: 1288px;
+	width: 1120px;
 
 	margin: 0 auto;
 	background-color: white;
@@ -545,21 +569,25 @@ Text/Quote - 800 (488px padding)
     margin: 0 auto;
     width: 100%;
 
-	background-color: #202124;
+	background-color: black;
 }
 
 .blackMainSection{
 	display: block;
-	width: 1148px;
+	width: 1000px;
 
 	margin: 0 auto;
 }
 
 .projectTitle{
-	font-size: 60px;
-	line-height: 82px;
+	font-size: 44px;
+	line-height: 64px;
 
-	text-align: left;
+	width: 700px;
+
+	margin: auto;
+
+	text-align: center;
 
 	color: white;
 
@@ -571,6 +599,14 @@ Text/Quote - 800 (488px padding)
 	-webkit-font-smoothing: antialiased !important;
 }
 
+
+.main-contentBlock{
+	display: block;
+	width: 864px;
+	margin: 0 auto;
+}
+
+
 .main-textBlock{
 	display: block;
 	width: 800px;
@@ -578,8 +614,13 @@ Text/Quote - 800 (488px padding)
 }
 
 .project-h1{
-	font-size: 48px;
-	line-height: 68px;
+	font-size: 30px;
+	line-height: 54px;
+
+	color: black;
+
+	width: 700px;
+	margin: auto;
 
 	text-align: left;
 
@@ -609,6 +650,9 @@ Text/Quote - 800 (488px padding)
 	font-size: 20px;
 	line-height: 48px;
 
+	width:700px;
+	margin: auto;
+
     font-family: 'GalaxieCopernicus-Book';
     font-weight: 500;
     font-style: normal;
@@ -618,7 +662,7 @@ Text/Quote - 800 (488px padding)
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 
-	display:inline-block;
+	display:block;
 }
 
 .project-tableOfContents a{
@@ -634,9 +678,33 @@ Text/Quote - 800 (488px padding)
 	display: inline-block;
 }
 
+.project-h2-summary{
+	font-size: 14px;
+	line-height: 30px;
+
+	color: #7F7F7F;
+
+	width: 700px;
+	margin: auto;
+
+	text-align: left;
+
+    font-family: 'Acumin Pro';
+    font-weight: bold;
+    font-style: normal;
+
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
 .project-h2{
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 44px;
+
+	color: black;
+
+	width: 700px;
+	margin: auto;
 
 	text-align: left;
 
@@ -649,8 +717,11 @@ Text/Quote - 800 (488px padding)
 }
 
 .project-body{
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 40px;
+
+	width: 700px;
+	margin: auto;
 
 	text-align: left;
 
@@ -671,8 +742,11 @@ Text/Quote - 800 (488px padding)
 }
 
 .project-ending{
-	font-size: 34px;
-	line-height: 68px;
+	font-size: 24px;
+	line-height: 54px;
+
+	width: 560px;
+	margin: auto;
 
 	text-align: center;
 
@@ -699,12 +773,12 @@ Text/Quote - 800 (488px padding)
 
 .main-imageBlock{
 	display: block;
-	width: 1000px;
+	width: 864px;
 	margin: 0 auto;
 }
 
 .main-imageBlock img{
-	width: 1000px;
+	width: 864px;
 	object-fit: cover;
 	margin: 0 auto;
 }
@@ -743,8 +817,8 @@ Text/Quote - 800 (488px padding)
 
 	margin: 0 auto;
 
-	font-size: 20px;
-	line-height: 52px;
+	font-size: 18px;
+	line-height: 46px;
 
 	text-align: left;
 
@@ -761,8 +835,8 @@ Text/Quote - 800 (488px padding)
 
 	padding-right: 6px;
 
-	font-size: 20px;
-	line-height: 52px;
+	font-size: 18px;
+	line-height: 46px;
 
     font-family: 'Zapf Dingbats';
     font-weight: normal;
@@ -1026,7 +1100,7 @@ Text/Quote - 800 (488px padding)
 
 .main-deckBlock{
 	display: block;
-	width: 1000px;
+	width: 864px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -1036,8 +1110,8 @@ Text/Quote - 800 (488px padding)
 	display: inline-block;
 	position: relative;
     background-color: #266EF1;
-    height: 300px;
-    width: 488px;
+    height: 258px;
+    width: 420px;
 
     border-radius: 8px;
 	box-shadow: 0px 2px 16px 0px rgba(143, 146, 155, 0.3);
@@ -1049,7 +1123,7 @@ Text/Quote - 800 (488px padding)
 
     text-align: left;
 
-    top: 12px;
+    top: 22px;
     left: 22px;
 
     color: white;
@@ -1062,7 +1136,7 @@ Text/Quote - 800 (488px padding)
     font-weight: bold;
     font-style: normal;
     font-size: 12px;
-    line-height: 34px;
+    line-height: 12px;
 
 	text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -1073,7 +1147,7 @@ Text/Quote - 800 (488px padding)
     font-weight: bold;
     font-style: normal;
     font-size: 34px;
-    line-height: 52px;
+    line-height: 40px;
 
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -1086,14 +1160,14 @@ Text/Quote - 800 (488px padding)
    	font-family: 'AvantGarde LT Book';
     font-weight: bold;
     font-style: normal;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 15px;
 
-    padding:14px 22px;
+    padding:12px 18px;
 
-    border-radius: 28px;
+    border-radius: 20px;
 
-    bottom: 26px;
+    bottom: 22px;
     left: 22px;
 
     color: white;
@@ -1101,9 +1175,9 @@ Text/Quote - 800 (488px padding)
 
 .deckOverlay{
     position: absolute;
-    top: 100px;
+    top: 92px;
     margin: auto;
-    width: 488px;
+    width: 420px;
     text-align: center;
     color: white;
     opacity: 0;
@@ -1115,7 +1189,7 @@ Text/Quote - 800 (488px padding)
     font-weight: bold;
     font-style: normal;
     font-size: 34px;
-    line-height: 52px;
+    line-height: 40px;
 
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -1128,14 +1202,14 @@ Text/Quote - 800 (488px padding)
    	font-family: 'AvantGarde LT Book';
     font-weight: bold;
     font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 15px;
 
-    width: 342px;
+    width: 267px;
     margin: auto;
     margin-top: 16px;
 
-    padding: 26px 0px;
+    padding: 22px 0px;
 
     border-radius: 40px;
 
@@ -1161,7 +1235,7 @@ Text/Quote - 800 (488px padding)
 }
 
 .deck:hover .deckOverlay{
-	top: 80px;
+	top: 74px;
 	opacity: 1;
 	transition: .6s cubic-bezier(0.19, 1, 0.22, 1);
 }
