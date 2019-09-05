@@ -446,9 +446,8 @@ Text/Quote - 800 (488px padding)
 
 	border-radius: 6px;
 
-	box-shadow: 0px 2px 4px 0px rgba(143, 146, 155, 0.3);
+	box-shadow: 0px 2px 1px 1px rgba(143, 146, 155, 0.3);
 
-	transition: .2s;
 }
 
 .infoSide{
@@ -548,7 +547,7 @@ Text/Quote - 800 (488px padding)
 }
 
 .thumbnail:hover {
-	box-shadow: 0px 6px 12px 0px rgba(143, 146, 155, 0.5);
+	box-shadow: 0px 4px 10px 1px rgba(143, 146, 155, 0.5);
 }
 
 .thumbnail:hover .bottomOfDiv{
