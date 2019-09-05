@@ -1123,7 +1123,7 @@ Text/Quote - 800 (488px padding)
 
     text-align: left;
 
-    top: 22px;
+    top: 17px;
     left: 22px;
 
     color: white;
@@ -1147,7 +1147,7 @@ Text/Quote - 800 (488px padding)
     font-weight: bold;
     font-style: normal;
     font-size: 34px;
-    line-height: 40px;
+    line-height: 60px;
 
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -1235,7 +1235,7 @@ Text/Quote - 800 (488px padding)
 }
 
 .deck:hover .deckOverlay{
-	top: 74px;
+	top: 72px;
 	opacity: 1;
 	transition: .6s cubic-bezier(0.19, 1, 0.22, 1);
 }
