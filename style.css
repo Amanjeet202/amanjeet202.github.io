@@ -1247,3 +1247,148 @@ Text/Quote - 800 (488px padding)
 }
 
 
+/* ----------------------- The Re Up ----------------------- */
+
+
+
+.re-upperSection{
+	background-color: blue;
+}
+
+.re-midSection{
+	background-color: red;
+}
+
+.re-endSection{
+	background-color: green;
+}
+
+.re-header{
+	margin: auto;
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 70px;
+    max-width:1150px;
+    background-color: pink;
+}
+
+.re-header-name{
+	display: inline-block;
+	background-color: purple;
+}
+
+.re-header-contact{
+	display: inline-block;
+	float: right;
+	background-color: yellow;
+}
+
+.re-hero{
+	margin: auto;
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 900px;
+	background-color: orange;
+	text-align: center;
+}
+
+.re-hero-memoji img{
+	width: 131px;
+}
+
+.re-hero-headline{
+	margin: auto;
+	max-width: 760px;
+	background-color: red;
+}
+
+.re-hero-body{
+	margin: auto;
+	max-width: 880px;
+	background-color: grey;
+
+	text-align: left;
+}
+
+.re-allCards{
+	margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.re-card{
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	height: 557px;
+	max-width: 1230px;
+	background-color: grey;
+}
+
+.re-card-right{
+	display: inline-block;
+	float: right;
+	height: 557px;
+	max-width: 506px;
+}
+
+.re-card-right img{
+	max-width:506px;
+ 	max-height:557px;
+ 	width: auto;
+ 	height: auto;
+}
+
+.re-card-left{
+	display: inline-block;
+	max-width: 724px;
+	background-color: blue;
+	margin-top: 30px;
+	margin-left: 32px;
+}
+
+.re-card-left-title{
+	margin: 0;
+	background-color: orange;
+}
+
+.re-card-field{
+	background-color: blue;
+	max-width: 657px;
+	margin-top: 26px;
+	margin-bottom: -10px;
+}
+
+.re-card-field-left{
+	background-color: green;
+	display: inline-block;
+	width: 175px;
+	vertical-align: top;
+}
+
+.re-card-field-right{
+	display: inline-block;
+	max-width: 478px;
+	background-color: pink;
+}
+
+
+.re-resume{
+	margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+	width: 1058px;
+
+	background-color: yellow;
+}
+
+
+
+
+
+
