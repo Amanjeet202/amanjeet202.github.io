@@ -1314,29 +1314,6 @@ Text/Quote - 800 (488px padding)
 	text-align: left;
 }
 
-.re-allCards{
-	margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-.re-card{
-	margin: auto;
-	margin-top: 60px;
-	margin-bottom: 60px;
-	height: 557px;
-	max-width: 1230px;
-	background-color: grey;
-}
-
-.re-card-right{
-	float: right;
-	height: 557px;
-	width: 506px;
-	background-color: pink;
-}
-
 @media only screen and (max-width: 1280px) {
   .re-card-right{
 		width: 420px;
@@ -1363,7 +1340,29 @@ Text/Quote - 800 (488px padding)
 		float: none;
 		margin-top: 46px;
 	}
+}
 
+.re-allCards{
+	margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.re-card{
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	height: 557px;
+	max-width: 1230px;
+	background-color: grey;
+}
+
+.re-card-right{
+	float: right;
+	height: 557px;
+	width: 506px;
+	background-color: pink;
 }
 
 
