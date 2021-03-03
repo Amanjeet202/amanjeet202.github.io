@@ -1290,15 +1290,15 @@ Text/Quote - 800 (488px padding)
 
 
 .re-upperSection{
-	background-color: blue;
+	background-color: white;
 }
 
 .re-midSection{
-	background-color: red;
+	background-color: #F0F2F3;
 }
 
 .re-endSection{
-	background-color: green;
+	background-color: white;
 }
 
 .re-header{
@@ -1308,12 +1308,10 @@ Text/Quote - 800 (488px padding)
     padding-right: 40px;
     padding-top: 64px;
     max-width: 1297px;
-    background-color: pink;
 }
 
 .re-header-name{
 	display: inline-block;
-	background-color: purple;
 
 	font-family: 'GT America';
     font-weight: bold;
@@ -1331,7 +1329,6 @@ Text/Quote - 800 (488px padding)
 .re-header-contact{
 	display: inline-block;
 	float: right;
-	background-color: yellow;
 
 	font-family: 'GT America';
     font-weight: 300;
@@ -1354,7 +1351,6 @@ Text/Quote - 800 (488px padding)
     padding-top: 82px;
     padding-bottom: 82px;
     max-width: 900px;
-	background-color: orange;
 	text-align: center;
 }
 
@@ -1365,7 +1361,6 @@ Text/Quote - 800 (488px padding)
 .re-hero-headline{
 	margin: auto;
 	max-width: 772px;
-	background-color: red;
 
 	font-family: 'GT America';
     font-weight: bold;
@@ -1386,7 +1381,6 @@ Text/Quote - 800 (488px padding)
 .re-hero-body{
 	margin: auto;
 	max-width: 880px;
-	background-color: grey;
 
 	text-align: left;
 
@@ -1417,9 +1411,11 @@ Text/Quote - 800 (488px padding)
 	margin-bottom: 140px;
 	height: 557px;
 	max-width: 1230px;
-	background-color: grey;
+	background-color: white;
 
 	border-radius: 6px;
+
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .re-card:last-child{
@@ -1435,7 +1431,6 @@ Text/Quote - 800 (488px padding)
 	float: right;
 	height: 557px;
 	width: 506px;
-	background-color: pink;
 	border-radius: 0px 6px 6px 0px;
 }
 
@@ -1457,14 +1452,12 @@ Text/Quote - 800 (488px padding)
 .re-card-left{
 	display: inline-block;
 	max-width: 724px;
-	background-color: blue;
 	margin-top: 30px;
 	margin-left: 32px;
 }
 
 .re-card-left-title{
 	margin: 0;
-	background-color: orange;
 
 	font-family: 'GT America';
     font-weight: bold;
@@ -1480,14 +1473,12 @@ Text/Quote - 800 (488px padding)
 }
 
 .re-card-field{
-	background-color: blue;
 	max-width: 657px;
 	margin-top: 26px;
 	margin-bottom: -10px;
 }
 
 .re-card-field-left{
-	background-color: green;
 	display: inline-block;
 	width: 175px;
 	vertical-align: top;
@@ -1508,7 +1499,6 @@ Text/Quote - 800 (488px padding)
 .re-card-field-right{
 	display: inline-block;
 	max-width: 478px;
-	background-color: pink;
 
 	font-family: 'Tiempos';
     font-weight: normal;
@@ -1529,18 +1519,19 @@ Text/Quote - 800 (488px padding)
     padding-right: 40px;
 	max-width: 1058px;
 
-	background-color: yellow;
 }
 
 .re-resume-section1{
-	background-color: blue;
 	padding-top: 110px;
+}
+
+#last-section1{
+	padding-top: 54px;
 }
 
 .re-resume-section1-column1{
 	display: inline-block;
 	width: 176px;
-	background-color: red;
 	vertical-align: top;
 
 	font-family: 'Inter';
@@ -1559,7 +1550,6 @@ Text/Quote - 800 (488px padding)
 .re-resume-section1-column5{
 	display: inline-block;
 	width: 238px;
-	background-color: pink;
 
 	font-family: 'Tiempos';
     font-weight: normal;
@@ -1576,7 +1566,6 @@ Text/Quote - 800 (488px padding)
 .re-resume-section1-column2{
 	display: inline-block;
 	width: 238px;
-	background-color: pink;
 
 	font-family: 'Tiempos';
     font-weight: normal;
@@ -1594,7 +1583,6 @@ Text/Quote - 800 (488px padding)
 .re-resume-section1-column4{
 	display: inline-block;
 	width: 238px;
-	background-color: pink;
 
 	font-family: 'Tiempos';
     font-weight: normal;
@@ -1612,7 +1600,6 @@ Text/Quote - 800 (488px padding)
 .re-resume-section1-column3{
 	display: inline-block;
 	width: 152px;
-	background-color: pink;
 	text-align: right;
 
 	font-family: 'Tiempos';
@@ -1629,7 +1616,6 @@ Text/Quote - 800 (488px padding)
 }
 
 .re-resume-section2{
-	background-color: blue;
 	padding-top: 54px;
 
 	font-family: 'Tiempos';
@@ -1648,7 +1634,6 @@ Text/Quote - 800 (488px padding)
 .re-resume-section2-column1{
 	display: inline-block;
 	width: 176px;
-	background-color: red;
 	vertical-align: top;
 
 	font-family: 'Inter';
@@ -1667,7 +1652,6 @@ Text/Quote - 800 (488px padding)
 .re-resume-section2-column2{
 	display: inline-block;
 	width: 112px;
-	background-color: pink;
 
 	font-family: 'Tiempos';
     font-weight: normal;
@@ -1684,7 +1668,6 @@ Text/Quote - 800 (488px padding)
 .re-resume-section2-column2b{
 	display: inline-block;
 	width: 210px;
-	background-color: pink;
 
 	font-family: 'Tiempos';
     font-weight: normal;
@@ -1702,7 +1685,6 @@ Text/Quote - 800 (488px padding)
 .re-resume-section2-column3{
 	display: inline-block;
 	width: 546px;
-	background-color: pink;
 	text-align: right;
 
 	font-family: 'Tiempos';
@@ -1719,7 +1701,6 @@ Text/Quote - 800 (488px padding)
 }
 
 .re-resume-section3{
-	background-color: blue;
 	padding-top: 54px;
 
 	font-family: 'Tiempos';
@@ -1738,7 +1719,6 @@ Text/Quote - 800 (488px padding)
 .re-resume-section3-column1{
 	display: inline-block;
 	width: 176px;
-	background-color: red;
 	vertical-align: top;
 
 	font-family: 'Inter';
@@ -1757,7 +1737,6 @@ Text/Quote - 800 (488px padding)
 .re-resume-section3-column2{
 	display: inline-block;
 	width: 323px;
-	background-color: pink;
 
 	font-family: 'Tiempos';
     font-weight: normal;
@@ -1775,7 +1754,6 @@ Text/Quote - 800 (488px padding)
 .re-resume-section3-column3{
 	display: inline-block;
 	width: 550px;
-	background-color: pink;
 	text-align: right;
 
 	font-family: 'Tiempos';
@@ -1868,7 +1846,6 @@ Text/Quote - 800 (488px padding)
 		margin-bottom: 140px;
 		height: auto;
 		max-width: 776px;
-		background-color: grey;
 	}
 
 	.re-card:last-child{
@@ -1906,25 +1883,21 @@ Text/Quote - 800 (488px padding)
 	.re-card-left{
 		display: inline-block;
 		max-width: 724px;
-		background-color: blue;
 		margin-top: 30px;
 		margin-left: 32px;
 	}
 
 	.re-card-left-title{
 		margin: 0;
-		background-color: orange;
 	}
 
 	.re-card-field{
-		background-color: blue;
 		max-width: 657px;
 		margin-top: 26px;
 		margin-bottom: -10px;
 	}
 
 	.re-card-field-left{
-		background-color: green;
 		display: inline-block;
 		width: 175px;
 		vertical-align: top;
@@ -1933,7 +1906,6 @@ Text/Quote - 800 (488px padding)
 	.re-card-field-right{
 		display: inline-block;
 		max-width: 478px;
-		background-color: pink;
 	}
 
 	.re-resume{
@@ -1942,18 +1914,15 @@ Text/Quote - 800 (488px padding)
 	    padding-right: 40px;
 		max-width: 660px;
 
-		background-color: yellow;
 	}
 
 	.re-resume-section1{
-		background-color: blue;
 		padding-top: 100px;
 	}
 
 	.re-resume-section1-column1{
 		display: block;
 		width: 328px;
-		background-color: red;
 		vertical-align: top;
 		padding-bottom: 20px;
 	}
@@ -1961,7 +1930,6 @@ Text/Quote - 800 (488px padding)
 	.re-resume-section1-column5{
 		display: inline-block;
 		width: 328px;
-		background-color: pink;
 		text-align: left;
 		padding-bottom: 28px;
 	}
@@ -1969,7 +1937,6 @@ Text/Quote - 800 (488px padding)
 	.re-resume-section1-column2{
 		display: inline-block;
 		width: 328px;
-		background-color: pink;
 		text-align: right;
 		padding-bottom: 28px;	
 	}
@@ -1977,26 +1944,22 @@ Text/Quote - 800 (488px padding)
 	.re-resume-section1-column4{
 		display: inline-block;
 		width: 328px;
-		background-color: pink;
 		text-align: left;
 	}
 
 	.re-resume-section1-column3{
 		display: inline-block;
 		width: 328px;
-		background-color: pink;
 		text-align: right;
 	}
 
 	.re-resume-section2{
-		background-color: blue;
 		padding-top: 100px;
 	}
 
 	.re-resume-section2-column1{
 		display: block;
 		width: 176px;
-		background-color: red;
 		vertical-align: top;
 		padding-bottom: 20px;
 	}
@@ -2004,30 +1967,25 @@ Text/Quote - 800 (488px padding)
 	.re-resume-section2-column2{
 		display: inline-block;
 		width: 112px;
-		background-color: pink;
 	}
 	.re-resume-section2-column2b{
 		display: inline-block;
 		width: 210px;
-		background-color: pink;
 	}
 
 	.re-resume-section2-column3{
 		display: inline-block;
 		width: 329px;
-		background-color: pink;
 		text-align: right;
 	}
 
 	.re-resume-section3{
-		background-color: blue;
 		padding-top: 100px;
 	}
 
 	.re-resume-section3-column1{
 		display: block;
 		width: 176px;
-		background-color: red;
 		vertical-align: top;
 		padding-bottom: 20px;
 	}
@@ -2035,13 +1993,11 @@ Text/Quote - 800 (488px padding)
 	.re-resume-section3-column2{
 		display: inline-block;
 		width: 328px;
-		background-color: pink;
 	}
 
 	.re-resume-section3-column3{
 		display: inline-block;
 		width: 327px;
-		background-color: pink;
 		text-align: right;
 	}
 
