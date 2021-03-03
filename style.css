@@ -1331,10 +1331,28 @@ Text/Quote - 800 (488px padding)
 }
 
 .re-card-right{
-	display: inline-block;
 	float: right;
 	height: 557px;
-	max-width: 506px;
+	width: 506px;
+	background-color: pink;
+}
+
+@media only screen and (max-width: 1280px) {
+  .re-card-right{
+		width: 460px;
+	}
+}
+
+@media only screen and (max-width: 1230px) {
+  .re-card-right{
+		width: 360px;
+	}
+}
+
+@media only screen and (max-width: 1130px) {
+  .re-card-right{
+		display: none;
+	}
 }
 
 .re-card-right img{
