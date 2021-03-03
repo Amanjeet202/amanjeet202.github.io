@@ -1422,53 +1422,6 @@ Text/Quote - 800 (488px padding)
 	background-color: pink;
 }
 
-@media only screen and (max-width: 1280px) {
-  .re-card-right{
-		width: 480px;
-	}
-}
-
-@media only screen and (max-width: 1250px) {
-  .re-card-right{
-		width: 460px;
-	}
-}
-
-@media only screen and (max-width: 1230px) {
-  .re-card-right{
-		width: 440px;
-	}
-}
-
-@media only screen and (max-width: 1210px) {
-  .re-card-right{
-		width: 420px;
-	}
-}
-
-@media only screen and (max-width: 1196px) {
-  .re-card{
-		margin: auto;
-		margin-top: 60px;
-		margin-bottom: 60px;
-		height: auto;
-		max-width: 776px;
-		background-color: grey;
-	}
-
-	.re-card-left{
-		margin-right: 32px;
-	}
-
-	.re-card-right{
-		width: 100%;
-		height: 380px;
-		float: none;
-		margin-top: 46px;
-	}
-}
-
-
 .re-resume{
 	margin: auto;
     padding-left: 40px;
@@ -1490,7 +1443,18 @@ Text/Quote - 800 (488px padding)
 	vertical-align: top;
 }
 
+.re-resume-section1-column5{
+	display: inline-block;
+	width: 238px;
+	background-color: pink;
+}
 .re-resume-section1-column2{
+	display: inline-block;
+	width: 238px;
+	background-color: pink;
+}
+
+.re-resume-section1-column4{
 	display: inline-block;
 	width: 238px;
 	background-color: pink;
@@ -1575,7 +1539,207 @@ Text/Quote - 800 (488px padding)
 .re-CTA-contact{
 }
 
+@media only screen and (max-width: 1280px) {
+  .re-card-right{
+		width: 480px;
+	}
+}
 
+@media only screen and (max-width: 1250px) {
+  .re-card-right{
+		width: 460px;
+	}
+}
+
+@media only screen and (max-width: 1230px) {
+  .re-card-right{
+		width: 440px;
+	}
+}
+
+@media only screen and (max-width: 1210px) {
+  .re-card-right{
+		width: 420px;
+	}
+}
+
+@media only screen and (max-width: 1196px) {
+  .re-card{
+		margin: auto;
+		margin-top: 60px;
+		margin-bottom: 60px;
+		height: auto;
+		max-width: 776px;
+		background-color: grey;
+	}
+
+	.re-card-left{
+		margin-right: 32px;
+	}
+
+	.re-card-right{
+		width: 100%;
+		height: 380px;
+		float: none;
+		margin-top: 46px;
+	}
+
+	.re-card-right img{
+	max-width:506px;
+ 	max-height:557px;
+ 	width: auto;
+ 	height: auto;
+	}
+
+	#re-thumbnail-1{
+		background-image: url("img/thumbnail-vertical-1.png");
+		background-size: cover;
+		background-position: center;
+	}
+
+	.re-card-left{
+		display: inline-block;
+		max-width: 724px;
+		background-color: blue;
+		margin-top: 30px;
+		margin-left: 32px;
+	}
+
+	.re-card-left-title{
+		margin: 0;
+		background-color: orange;
+	}
+
+	.re-card-field{
+		background-color: blue;
+		max-width: 657px;
+		margin-top: 26px;
+		margin-bottom: -10px;
+	}
+
+	.re-card-field-left{
+		background-color: green;
+		display: inline-block;
+		width: 175px;
+		vertical-align: top;
+	}
+
+	.re-card-field-right{
+		display: inline-block;
+		max-width: 478px;
+		background-color: pink;
+	}
+
+	.re-resume{
+		margin: auto;
+	    padding-left: 40px;
+	    padding-right: 40px;
+		max-width: 660px;
+
+		background-color: yellow;
+	}
+
+	.re-resume-section1{
+		background-color: blue;
+		padding-top: 100px;
+	}
+
+	.re-resume-section1-column1{
+		display: block;
+		width: 328px;
+		background-color: red;
+		vertical-align: top;
+		padding-bottom: 20px;
+	}
+
+	.re-resume-section1-column5{
+		display: inline-block;
+		width: 328px;
+		background-color: pink;
+		text-align: left;
+		padding-bottom: 28px;
+	}
+
+	.re-resume-section1-column2{
+		display: inline-block;
+		width: 328px;
+		background-color: pink;
+		text-align: right;
+		padding-bottom: 28px;	
+	}
+
+	.re-resume-section1-column4{
+		display: inline-block;
+		width: 328px;
+		background-color: pink;
+		text-align: left;
+	}
+
+	.re-resume-section1-column3{
+		display: inline-block;
+		width: 328px;
+		background-color: pink;
+		text-align: right;
+	}
+
+	.re-resume-section2{
+		background-color: blue;
+		padding-top: 100px;
+	}
+
+	.re-resume-section2-column1{
+		display: block;
+		width: 176px;
+		background-color: red;
+		vertical-align: top;
+		padding-bottom: 20px;
+	}
+
+	.re-resume-section2-column2{
+		display: inline-block;
+		width: 112px;
+		background-color: pink;
+	}
+	.re-resume-section2-column2b{
+		display: inline-block;
+		width: 210px;
+		background-color: pink;
+	}
+
+	.re-resume-section2-column3{
+		display: inline-block;
+		width: 330px;
+		background-color: pink;
+		text-align: right;
+	}
+
+	.re-resume-section3{
+		background-color: blue;
+		padding-top: 100px;
+	}
+
+	.re-resume-section3-column1{
+		display: block;
+		width: 176px;
+		background-color: red;
+		vertical-align: top;
+		padding-bottom: 20px;
+	}
+
+	.re-resume-section3-column2{
+		display: inline-block;
+		width: 328px;
+		background-color: pink;
+	}
+
+	.re-resume-section3-column3{
+		display: inline-block;
+		width: 328px;
+		background-color: pink;
+		text-align: right;
+	}
+
+}
 
 
 
