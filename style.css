@@ -1399,6 +1399,15 @@ Text/Quote - 800 (488px padding)
     margin-top: 20.8px;
 }
 
+.re-hero-body a{
+	color: black;
+	text-decoration: underline;
+}
+
+.re-hero-body a:hover{
+	color: grey;
+}
+
 .re-allCards{
 	margin: auto;
     padding-left: 40px;
