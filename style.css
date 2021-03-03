@@ -1386,11 +1386,29 @@ Text/Quote - 800 (488px padding)
 
 @media only screen and (max-width: 1280px) {
   .re-card-right{
+		width: 480px;
+	}
+}
+
+@media only screen and (max-width: 1250px) {
+  .re-card-right{
+		width: 460px;
+	}
+}
+
+@media only screen and (max-width: 1230px) {
+  .re-card-right{
+		width: 440px;
+	}
+}
+
+@media only screen and (max-width: 1210px) {
+  .re-card-right{
 		width: 420px;
 	}
 }
 
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1196px) {
   .re-card{
 		margin: auto;
 		margin-top: 60px;
