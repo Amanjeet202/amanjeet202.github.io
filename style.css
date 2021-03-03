@@ -1400,7 +1400,7 @@ Text/Quote - 800 (488px padding)
 	margin: auto;
     padding-left: 40px;
     padding-right: 40px;
-	width: 1058px;
+	max-width: 1058px;
 
 	background-color: yellow;
 }
