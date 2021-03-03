@@ -1955,6 +1955,12 @@ Text/Quote - 800 (488px padding)
 		text-align: right;
 	}
 
+	#re-thumbnail-1{
+		background-image: url("img/thumbnail-horizontal-1.png");
+		background-size: cover;
+		background-position: center;
+	}
+
 }
 
 
