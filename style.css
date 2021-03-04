@@ -1458,6 +1458,36 @@ Text/Quote - 800 (488px padding)
 	background-position: center;
 }
 
+#re-thumbnail-2{
+	background-image: url("img/thumbnail-vertical-2.png");
+	background-size: cover;
+	background-position: center;
+}
+
+#re-thumbnail-3{
+	background-image: url("img/thumbnail-vertical-3.png");
+	background-size: cover;
+	background-position: center;
+}
+
+#re-thumbnail-4{
+	background-image: url("img/thumbnail-vertical-4.png");
+	background-size: cover;
+	background-position: center;
+}
+
+#re-thumbnail-5{
+	background-image: url("img/thumbnail-vertical-5.png");
+	background-size: cover;
+	background-position: center;
+}
+
+#re-thumbnail-6{
+	background-image: url("img/thumbnail-vertical-6.png");
+	background-size: cover;
+	background-position: center;
+}
+
 .re-card-left{
 	display: inline-block;
 	max-width: 580px;
@@ -1966,6 +1996,30 @@ Text/Quote - 800 (488px padding)
 
 	#re-thumbnail-1{
 		background-image: url("img/thumbnail-horizontal-1.png");
+		background-size: cover;
+		background-position: center;
+	}
+
+	#re-thumbnail-2{
+		background-image: url("img/thumbnail-horizontal-2.png");
+		background-size: cover;
+		background-position: center;
+	}
+
+	#re-thumbnail-3{
+		background-image: url("img/thumbnail-horizontal-3.png");
+		background-size: cover;
+		background-position: center;
+	}
+
+	#re-thumbnail-4{
+		background-image: url("img/thumbnail-horizontal-4.png");
+		background-size: cover;
+		background-position: center;
+	}
+
+	#re-thumbnail-5{
+		background-image: url("img/thumbnail-horizontal-5.png");
 		background-size: cover;
 		background-position: center;
 	}
