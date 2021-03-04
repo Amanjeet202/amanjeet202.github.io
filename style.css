@@ -1488,6 +1488,7 @@ Text/Quote - 800 (488px padding)
 	background-position: center;
 }
 
+
 .re-card-left{
 	display: inline-block;
 	max-width: 580px;
@@ -2020,6 +2021,13 @@ Text/Quote - 800 (488px padding)
 
 	#re-thumbnail-5{
 		background-image: url("img/thumbnail-horizontal-5.png");
+		background-size: cover;
+		background-position: center;
+	}
+
+
+	#re-thumbnail-6{
+		background-image: url("img/thumbnail-horizontal-6.png");
 		background-size: cover;
 		background-position: center;
 	}
