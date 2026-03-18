@@ -1452,6 +1452,18 @@ Text/Quote - 800 (488px padding)
 
 }
 
+#re-thumbnail-0{
+	background-image: url("img/thumbnail-vertical-7.png");
+	background-size: cover;
+	background-position: center;
+}
+
+#re-thumbnail-0b{
+	background-image: url("img/thumbnail-vertical-8.png");
+	background-size: cover;
+	background-position: center;
+}
+
 #re-thumbnail-1{
 	background-image: url("img/thumbnail-vertical-1.png");
 	background-size: cover;
@@ -1993,6 +2005,18 @@ Text/Quote - 800 (488px padding)
 		display: inline-block;
 		width: 196px;
 		text-align: right;
+	}
+
+	#re-thumbnail-0{
+		background-image: url("img/thumbnail-horizontal-7.png");
+		background-size: cover;
+		background-position: center;
+	}
+
+	#re-thumbnail-0b{
+		background-image: url("img/thumbnail-horizontal-8.png");
+		background-size: cover;
+		background-position: center;
 	}
 
 	#re-thumbnail-1{
